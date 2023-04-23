@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio HTML</title>
+</head>
+
+<body>
+
+    <h1>Formulário</h1>
+    <h2>Festa de final de ano dos amigos</h2><br />
+    <form>
+        <p>
+            Preencha seus dados abaixo:
+        </p>
+        <input type="text" id="nome" placeholder="Nome" />
+        <br /><br />
+        <input type="email" id="email" placeholder="E-mail" />
+        <br /><br />
+        <input type="password" id="password" placeholder="Senha" required />
+        <br /><br />
+        <p>
+            Em qual horário você prefere que aconteça a festa?
+        </p>
+        <input type="radio" name="horario-festa" id="horario-manha" /><label for="horario-manha">Manhã</label>
+        <input type="radio" name="horario-festa" id="horario-tarde" /><label for="horario-tarde">Tarde</label>
+        <input type="radio" name="horario-festa" id="horario-noite" /><label for="horario-noite">Noite</label>
+        <br /><br /><br />
+        <label for="number">Acompanhantes</label>
+        <input type="number" max="6" min="0" step="1"/> 
+        <br /><br /><br />
+        <input type="button" value="Cadastrar" onclick="confirmNullSpaces()" />
+        <script>
+            function confirmPassword() {
+                var password = document.getElementById('password').value; // Obtém o valor da senha digitada
+                if (password !== '1234') { // Compara com a senha esperada
+                    alert('Confirme a senha fornecida no e-mail de recebimento deste formulário');
+                } else {
+                    alert('Cadastro realizado com sucesso!');
+                }
+            }
+            function confirmNullSpaces() {
+                var nome = document.getElementById('nome').value;
+                var email = document.getElementById('email').value;
+                var password = document.getElementById('password').value;
+                if (nome === '' || email === '' || password === '') {
+                    alert('Por favor, preencha todos os campos em branco.');
+                } else {
+                    confirmPassword();
+                }
+            }
+        </script>
+        <button type="reset">
+            Limpar
+        </button>
+    </form>
+</body>
+
+</html>
