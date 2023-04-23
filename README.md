@@ -7,6 +7,7 @@
 • Senha<br />
 • Horário de preferência<br />
 • Quantidade de acompanhantes<br />
+• Sugestão de Local<br />
 <br />
 __Compara senha com o valor correto (que será enviado por email junto com o formulário);<br />
 Não permite o envio do formulário se houver campos em branco.__
