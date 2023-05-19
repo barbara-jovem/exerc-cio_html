@@ -21,7 +21,7 @@ header{
 }
 
 .titulo-site {
-  color: #EAAC7F;
+  color: #ea9d7f;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 48px;
 }
@@ -52,7 +52,7 @@ header{
 .titulo-secao-um, .titulo-secao-tres{
   display: flex;
   justify-content: center;
-  background-color: #EAAC7F;
+  background-color: #ea9d7f;
   color: #922033;
   font-size: 30px;
   padding: 10px; 
@@ -65,18 +65,19 @@ header{
   align-items: flex-start;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #EAAC7F;
+  background-color: #ea9d7f;
 }
 .grupo-noticias-um ul, .grupo-secao-tres ul {
   list-style-type: none; 
   display: flex; 
+  flex-wrap: wrap;
   gap: 20px;
 }
 
 .grupo-noticias-um li, .grupo-secao-tres li {
   display: flex; 
-  flex-direction: row; 
-  align-items: center; 
+  width: 30%;
+  flex-direction: row;  
 }
 
 .titulo-secao-dois, .titulo-secao-quatro{
@@ -99,13 +100,14 @@ header{
 .grupo-noticias-dois ul, .grupo-secao-quatro ul {
   list-style-type: none; 
   display: flex; 
+  flex-wrap: wrap;
   gap: 20px;
 }
 
 .grupo-noticias-dois li, .grupo-secao-quatro li{
   display: flex; 
-  flex-direction: row; 
-  align-items: center; 
+  width: 30%;
+  flex-direction: row;  
 }
 
 .titulo-noticia{
@@ -142,7 +144,7 @@ header{
   margin-bottom: 10px;
 }
 
-.botao-lermais a:hover{
+.botao-lermais:hover{
   text-decoration: underline;
 }
 
