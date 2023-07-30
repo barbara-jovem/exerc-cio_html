@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: #DD62FF;
+    padding: 16px 0;
+    color: #35233E;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+body img {
+    width: 300px;
+}
+
+form{
+    padding: 24px 0;
+    text-align: center;
+}
+
+ul {
+    cursor: pointer;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nova-tarefa {
+    background-color: #D3EAFF;
+    border: 2px solid #35233E;
+}
+
+#nova-tarefa::placeholder{
+    color: #35233E;
+}
+
+input, button{
+    padding: 8px;
+}
+
+.botoes-container button{
+    margin-right: 10px;
+}
+
+#botao-cadastrar{
+    background-color: #1CBDFF;
+    border: 2px solid #35233E;
+    cursor: pointer;
+    font-weight: bold;
+    color: #35233E;
+}
+
+#botao-limpar{
+    background-color: #CD36B0;
+    border: 2px solid #35233E;
+    cursor: pointer;
+    font-weight: bold;
+    color: #35233E;
+}
+
+.riscado {
+    text-decoration: line-through;
+  }
+  
