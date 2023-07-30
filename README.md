@@ -1,13 +1,1 @@
-# Formulário 
-## Festa final de ano dos amigos
-
-### Documento recebe:
-• Nome<br />
-• Email<br />
-• Senha<br />
-• Horário de preferência<br />
-• Quantidade de acompanhantes<br />
-• Sugestão de Local<br />
-<br />
-__Compara senha com o valor correto (que será enviado por email junto com o formulário);<br />
-Não permite o envio do formulário se houver campos em branco.__
+Página de Lista de Tarefas que recebe os dados das atividades e exibe em lista não ordenada, sendo possível riscá-las assim que forem concluídas ou apagar toda a lista quando desejar. 
